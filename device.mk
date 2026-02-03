@@ -26,8 +26,8 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-$(LOCAL_PATH)/configs/camera/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config
-$(LOCAL_PATH)/configs/camera/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config
+$(LOCAL_PATH)/configs/camera/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
+$(LOCAL_PATH)/configs/camera/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
 $(LOCAL_PATH)/configs/camera/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config
 
 # LiveDisplay
